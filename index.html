@@ -28,50 +28,111 @@
       <header>
         <div class="avatar">
           <img
+            id="profile.photo"
             src="https://avatars.githubusercontent.com/u/96707427?s=400&u=58d91f2e8ca562774a9d0195d4d510476244d3c5&v=4"
             alt="avatar profile"
           />
         </div>
         <div class="content-header">
-          <h1>Olá, me chamo Romeu Soares de Souto</h1>
+          <h1>Olá, me chamo <span id="profile.name">Carregando...</span></h1>
           <div class="contacts">
             <div class="info">
               <img
                 src="/assets/img/cantacts/mini-avatar.png"
                 alt="profile job"
-              /><span>Web developer</span>
+              />
+              <span id="profile.job">Carregando...</span>
             </div>
             <div class="info">
-              <img
-                src="/assets/img/cantacts/location.png"
-                alt="location"
-              /><span>Canguaretama - RN/BR</span>
+              <img src="/assets/img/cantacts/location.png" alt="location" />
+              <span id="profile.location">Carregando...</span>
             </div>
             <div class="info">
               <img
                 src="/assets/img/cantacts/whatsApp.png"
                 alt="contact number"
-              /><a
+              />
+              <a
+                id="profile.phone"
                 href="https://wa.me/5584981127596"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                +55 84 98112-7596
+                Carregando...
               </a>
             </div>
             <div class="info">
-              <img src="/assets/img/cantacts/email.png" alt="contact email" /><a
-                href="mailto:romeusoares14569@gmail.com"
-                >romeusoares14569@gmail.com</a
-              >
+              <img src="/assets/img/cantacts/email.png" alt="contact email" />
+              <a id="profile.email" href="mailto:romeusoares14569@gmail.com">
+                Carregando...
+              </a>
             </div>
           </div>
         </div>
       </header>
 
-      <main></main>
+      <main>
+        <section class="acordeon">
+          <button class="trigger" type="button">
+            <h2>Skills</h2>
+          </button>
+          <div class="content">
+            <div class="skills">
+              <section class="tools">
+                <h3>Ferramentas:</h3>
+                <ul id="profile.skills.hardSkills"></ul>
+              </section>
+              <section class="personal">
+                <h3>Pessoal:</h3>
+                <ul id="profile.skills.softSkills">
+                  <li>Carregando...</li>
+                  <li>Carregando...</li>
+                  <li>Carregando...</li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </section>
 
-      <footer></footer>
+        <section class="acordeon">
+          <button class="trigger" type="button">
+            <h2>Idiomas</h2>
+          </button>
+          <div class="content">
+            <ul class="languages" id="profile.languages">
+              <li>Carregando...</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="acordeon">
+          <button class="trigger" type="button">
+            <h2>Portfólio</h2>
+          </button>
+          <div class="content">
+            <ul class="portfolio" id="profile.portfolio"></ul>
+          </div>
+        </section>
+
+        <section class="acordeon">
+          <button class="trigger" type="button">
+            <h2>Experiência Profissional</h2>
+          </button>
+          <div class="content">
+            <ul class="experience" id="profile.professionalExperience"></ul>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <a href="https://www.dio.me/" target="_blank">
+          <img src="assets/icons/dio.svg" alt="DIO" />
+        </a>
+      </footer>
     </div>
+
+    <script src="src/js/acordeon.js"></script>
+    <script src="src/js/api.js"></script>
+    <script src="src/js/main.js"></script>
   </body>
 </html>
