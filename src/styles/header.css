@@ -1,13 +1,16 @@
 header {
     display: flex;
-    justify-content: space-between;
-    gap: 10rem;
-    padding: 2rem 2rem;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.avatar {
+    margin:  auto;
 }
 
 .avatar img {
-    width: 238px;
-    height: 238px;
+    width: 138px;
+    height: 138px;
     border-radius: 50%;
 }
 
@@ -21,4 +24,17 @@ header {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    header {
+       flex-direction: row;
+       justify-content: space-between;
+       gap: 10rem;
+       padding: 2rem 2rem;
+    }
+    .avatar img {
+       width: 238px;
+       height: 238px;
+    }
 }
