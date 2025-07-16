@@ -9,15 +9,35 @@
     "hardSkills": [
       {
         "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://romeu-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FnodejsLogo.7d585fcc.png&w=1080&q=75"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "https://romeu-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FreactLogo.f7801d4a.png&w=1080&q=75"
       },
       {
         "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "logo": "https://romeu-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FpostgresqlLogo.bd06f3c5.png&w=1080&q=75"
+      },
+      {
+        "name": "Javascript",
+        "logo": "https://romeu-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FjavascriptLogo.571fc2f8.png&w=1080&q=75"
+      },
+      {
+        "name": "Typescript",
+        "logo": "https://romeu-portfolio.netlify.app/_next/static/media/typeScriptLogo.8d6c1f4b.svg"
+      },
+      {
+        "name": "NextJS",
+        "logo": "https://romeu-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnextjs.8457abf4.png&w=1080&q=75"
+      },
+      {
+        "name": "Tailwindcss",
+        "logo": "https://romeu-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FtailwindcssLogo.a3a51636.png&w=1080&q=75"
+      },
+      {
+        "name": "Drizzle ORM",
+        "logo": "https://romeu-portfolio.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FdrizzleLogo.b22db56b.png&w=1080&q=75"
       }
     ],
     "softSkills": [
