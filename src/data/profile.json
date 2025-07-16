@@ -49,5 +49,17 @@
       "url": "https://github.com/Romeusorionaet/romeu-soares-portfolio",
       "github": true
     }
+  ],
+   "professionalExperience": [
+    {
+      "name": "Faculdade",
+      "period": "2024 - 2026",
+      "description": "Unopar / Superior em Análise e desenvolvimento de sistemas"
+    },
+    {
+      "name": "Curso especializado",
+      "period": "2022 - 2024",
+      "description": "Rocketseat / Desenvolvimento de projetos FullStack"
+    }
   ]
 }
